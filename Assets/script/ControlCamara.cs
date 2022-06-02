@@ -7,7 +7,6 @@ public class ControlCamara : MonoBehaviour
     [Range(0, 100)]
     public float speed = 1;
     private Rigidbody rb;
-    private Transform pos;
     [Range(0, 10)]
     public float sensibilidadX = 1;
 
@@ -23,8 +22,7 @@ public class ControlCamara : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         transform.Rotate(0, Input.GetAxis("Mouse X") * sensibilidadX, 0);
-        rb.velocity = (transform.forward * Input.GetAxis("Vertical")*speed) + (transform.right * Input.GetAxis("Horizontal")*speed);
-        pos = this.transform;
+        rb.velocity = (transform.forward * Input.GetAxis("Vertical")*speed) + (transform.right * Input.GetAxis("Horizontal")*speed) + new Vector3(0,rb.velocity.y,0);
 
     }
 
