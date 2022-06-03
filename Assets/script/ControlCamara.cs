@@ -10,6 +10,8 @@ public class ControlCamara : MonoBehaviour
     [Range(0, 10)]
     public float sensibilidadX = 1;
 
+    public int coins = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,4 +28,12 @@ public class ControlCamara : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Coin")
+        {
+            this.coins = this.coins + 1;
+            Debug.Log("Tomaste una moneda!");
+        }
+    }
 }
