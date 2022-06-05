@@ -829,7 +829,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Monsalvo Bola\xF1os Melissa"
+  m_Text: "Zazueta Barajas Sebasti\xE1n Pedro"
 --- !u!222 &832312475
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Zazueta Barajas Sebasti\xE1n Pedro"
+  m_Text: 
 --- !u!222 &994196928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mart\xEDnez Soto Mariana"
+  m_Text: "Monsalvo Bola\xF1os Melissa"
 --- !u!222 &1420043485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mateos Flores Erik Esteban
+  m_Text: "Mart\xEDnez Soto Mariana"
 --- !u!222 &1941449173
 CanvasRenderer:
   m_ObjectHideFlags: 0
